@@ -13,7 +13,7 @@ class PageRank(object):
         self.crawledPages  = {} # holds Crawled Pages (read in from file)
         # Constants 
         self.totalOutlinks = 0
-        self.teleportationFactor = 0.15
+        self.teleportationFactor = 0.00
         self.convergence = 0.0001 
         self.dp = 4 # decimal places to round PR's to
         self.maxIterations = 100
@@ -150,10 +150,10 @@ class PageRank(object):
             # check for convergence
             convergedCount = 0
             for page in self.visitedPages:
-                if self.pageRanks[page][iteration] >= self.pageRanks[page][iteration-1] - self.convergence:
+                if round(self.pageRanks[page][iteration-1],1) == 0.0 or self.pageRanks[page][iteration] >= self.pageRanks[page][iteration-1] - self.convergence:
                     convergedCount+=1
-                # else:
-                #     print "Iteration = %d, page %s not converged" % (iteration, page)
+                else:
+                    print "Iteration = %d, page %s not yet converged" % (iteration, page)
 
         self.stats += "Reached full convergence in %d iterations\n" % iteration
         self.addSumofPRsToStats(iteration)

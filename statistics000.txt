@@ -1,7 +1,7 @@
 Teleportation factor: 0.00
-Convergence threashold: +/-0.0001
-Reached full convergence in 100 iterations
-Sum of all pageranks: 13.1718
+Convergence threashold: +/-0.01
+Reached full convergence in 56 iterations
+Sum of all pageranks: 14.3537
 Done!
 ...
 PR iteration trace saved to: `pagerank000_workings.txt`
