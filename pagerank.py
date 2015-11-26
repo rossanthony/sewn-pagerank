@@ -13,7 +13,7 @@ class PageRank(object):
         self.crawledPages  = {} # holds Crawled Pages (read in from file)
         # Constants 
         self.totalOutlinks = 0
-        self.teleportationFactor = 1.00
+        self.teleportationFactor = 0.15
         self.convergence = 0.0001 
         self.dp = 4 # decimal places to round PR's to
         self.maxIterations = 100
