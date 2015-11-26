@@ -1,3236 +1,2312 @@
 {
     "http://www.dcs.bbk.ac.uk": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/about/compfac.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/about/map.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/about/vacancies.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/ais": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/ais/modules/advanced-applications.php": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/ais/modules/data-warehousing-data-mining.php": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/ais/students/2005": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/ais/students/2006": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/cs": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/cs/cs.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/cs/directors-note.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/cs/exams.html#exams": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/cs/ft-qa.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/cs/projects.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/cs/pt-qa.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/cs/pt-sample-test.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/eprog": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/etech": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/fdit": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/iis": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/isc": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/ism": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/itapps": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/mres": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/courses/wim": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=dave": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=dell": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=dg": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=gilda": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=gmagoulas": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=ian": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=janet": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=jenny": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=kasia": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=kim": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=mick": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=nigel": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=niki": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=nimali": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=sjmaybank": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=sven": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=szabolcs": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=tara": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=trevor": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/enquiry.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/home.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/icdt2001": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/icdt2001/arrival.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/icdt2001/hall.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/icdt2001/hotels.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/icdt2001/icdt_accom.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/icdt2001/icdt_burs.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/icdt2001/icdt_call.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/icdt2001/icdt_hist.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/icdt2001/icdt_info.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/icdt2001/icdt_program.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/icdt2001/icdt_reg.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/icdt2001/index.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/icdt2001/regform.txt": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/index.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/ispider": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/itapps/ec.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/itapps/ol.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/link/research": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/navigationzone": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/research": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/research/bioinf": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/research/dbtech": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/research/degrees-apply.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/research/degrees-info.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/research/phdbbk_public.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/research/phdregulations.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/research/research_methods.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/selene": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/selene/index.html#about": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/selene/reports": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/seminars": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/trails": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/trails/index.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/trails/results.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/trails/showcase.htm": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/trails/showcase1.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/tristarp": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/tristarp/rr11a/index.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/tristarp/rr11a/rr11a.html#progressing": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/ukci": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/ukci/authors.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/ukci/photos.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/ukci/register.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/ukci/travelgrant.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/ukci/ukci-template.tgz": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/ukci05": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/ukci05/authors.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/ukci05/photos.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/ukci05/register.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/ukci05/travelgrant.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/ukci05/ukci-template.tgz": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn/abstracts.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn/dates.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn/format.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn/index.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn/location.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn/map.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn/progcomm.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn/programme.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn2": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn2/dates.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn2/format.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn2/index.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn2/progcomm.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn2/programme.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn3": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn3/dates.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn3/format.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn3/index.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn3/progcomm.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn3/programme.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webdyn3/subs.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/webmail": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/abstracts/arbook.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/abstracts/cj94.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/abstracts/dke95.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/abstracts/p88.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/abstracts/p92.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/abstracts/p93.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/abstracts/pk90.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/abstracts/sp91.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/dblang.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/fdl.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/home.html#projects": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/pfl.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/projects/active.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/projects/automed.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/projects/selene": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/projects/selene/index.html#about": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/projects/selene/reports": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ap/teaching": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~aris": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~azy": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~dave": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~dean": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~dell": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~dg": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~dgeor02": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~dikaios": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~dionisis": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~george": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ghama01": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ghama01/xml/rss.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gilda": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gmagoulas": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gmagoulas/bio.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gmagoulas/contact.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gmagoulas/home.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gmagoulas/jit_pie.htm": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gmagoulas/links.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gmagoulas/publications.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gmagoulas/research.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gmagoulas/teaching.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gmagoulas/wblc.htm": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gpapa05": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gpapa05/blogger": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gpapa05/blogger/2005_02_01_archive.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gpapa05/blogger/2005_03_01_archive.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gpapa05/blogger/2005_05_01_archive.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gpapa05/blogger/2005_07_01_archive.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gr": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gr/bio.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gr/index.html#research": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gr/muc": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gr/muc/index.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gr/projects/assist/index.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gr/projects/rbfmine.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gr/projects/student_projects.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gr/projects/ubigoogle.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gr/pubs.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gr/research_projects.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gr/sac07/index.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gr/u-commerce/index.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gr/u-commerce/program.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~gr/useful.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~hkarg01": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~hkarg01/resources.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ian": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~janet": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~jbott01": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~jbott01/weblogs.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~jchib01": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~jchib01/home.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~jchib01/mining.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~jchib01/rss/rss2.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~jenny": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~jgrob01": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~jgrob01/weblogs.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~jjine03": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~jkhat01": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~jmudg01": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~jmudg01/feed/homepage.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~jmudg01/resources.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kasia": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kbada01": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kbada01/index2.htm": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kbada01/index4.htm": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kbada01/rss2.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kbren02": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kdean02": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kdean02/lambert_dean.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kdean02/resources.htm": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000005.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000009.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000012.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000023.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000074.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000107.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000113.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000131.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000142.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000154.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000155.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000159.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2003_10.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2003_11.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2004_05.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2005_05.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2005_10.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2005_11.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2005_12.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2006_10.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/blog/index.rdf": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/dbmblog": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/000047.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/000144.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/000147.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/000148.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/000149.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/2006_01.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/2006_02.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/2006_03.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/dbmblog/index.rdf": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/mpwp": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/mscaissearchoptimization/mscais-search-optimization.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/webtech2006": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000150.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000151.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000152.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000153.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000156.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000157.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000158.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/2006_10.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/webtech2006/index.rdf": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kevin/webtech2006/index.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kgaga01": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kgaga01/index.htm": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kgaga01/test.htm": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kgrew01": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kgrew01/index.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kgrew01/links.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kgrew01/news.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kgrew01/news.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~khunn01": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~khunn01/cbsd/assignment": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~khunn01/civ/book.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~khunn01/credits.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~khunn01/index.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~khunn01/library.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~khunn01/rss/my_rss_feed.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~khunn01/rss/rss_feed.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~khunn01/rss/rss_syndication.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~khunn01/rss/w3t_rss1.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~khunn01/rss/w3t_rss2.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~khunn01/search_engines.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kim": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kjosh01": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kjosh01/rss.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kjosh01/rss_syndication.htm": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kkhan02": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kkhan02/index1.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kkhan02/index2.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kkhan02/index3.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kkhan02/rss1.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kkhan03": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kliee08": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kliee08/rss/bbcrss.htm": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kliee08/rss/myrss.htm": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kliee08/rss/rss.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~kmant02": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~krago01": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~krago01/index.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~krago01/news.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~krago01/resource.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~krago01/rss/rss.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~krago01/syndicate.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lfour01": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lfour01/optimization.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lfour01/rss.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lfour01/syndicate.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lfour01/youtubevideo.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~loshe01": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lsekh01": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lsekh01/index.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lselm01": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lselm01/index.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lselm01/mscais_search_optimization.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lselm01/rss.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lselm01/syndicated_content.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lucas": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lucas/projects": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lucas/projects/ispider": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lwalt03": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lwalt03/mscais search optimization.htm": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lwalt03/rss_feeds.htm": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lwalt03/site_news.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~lzang01": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/bookshops.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/cfp_cj_profiling.txt": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/errata_search_engine_book.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/family.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/games.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/handheld.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/ism_db_option_coursework.htm": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/mail.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/optdb.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/papers.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/relational_book.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/search.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/search_engine_book.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/software.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/technews.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/web.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/web_plan.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mark/webtech.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~michael": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~michael/sw/sw.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mick": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mirkin/advanced": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mirkin/advanced/diyml": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mirkin/advanced/diyml/code": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mirkin/advanced/diyml/code/contin.m": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mirkin/advanced/diyml/code/k_mean.m": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mirkin/advanced/diyml/code/readlist.m": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mirkin/advanced/diyml/code/savelist.m": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mirkin/advanced/diyml/code/savematt.m": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mirkin/advanced/former": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~mirkin/advanced/ml": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~nigel": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~nigel/bioinf/pfdb.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~nigel/bioinf/pfdbsources.htm": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~niki": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~niki/publications.htm": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~niki/teaching.htm": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~pjhk": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/cv.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/elearning.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/optimise.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/query.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/css/notes.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/css/slide17.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/css/slide18.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/css/slide19.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/css/slide20.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/css/slide21.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/css/slide22.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/css/toc.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/data-on-the-web.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/dtd-lab-new/sol.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/dtd-lab-new/toc.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/dtd-new/invalid-family.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/dtd-new/notes.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/dtd-new/rss-fragment-dtd-invalid.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/dtd-new/rss-fragment-dtd-valid.xml": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/dtd-new/slide19.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/dtd-new/toc.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/html-new/notes.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/html-new/slide1.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/html-new/slide12.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/html-new/slide19.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/html-new/slide2.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/html-new/slide20.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/html-new/slide28.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/html-new/slide3.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/html-new/slide4.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/html-new/slide5.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/html-new/toc.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/html-xml-lab/sol.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/html-xml-lab/toc.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/html-xml-lab/xhtml-sol.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/languages-for-the-web.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/not-covered-0506.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/notes-languages-for-the-web.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/notes-new.xsl": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/ns-new/notes.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/ns-new/slide1.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/ns-new/slide11.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/ns-new/slide2.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/ns-new/slide9.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/ns-new/toc.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/slides-languages-for-the-web.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/solutions/slide1.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xml-new/notes.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xml-new/slide10.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xml-new/slide11.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xml-new/slide12.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xml-new/slide13.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xml-new/slide14.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xml-new/slide15.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xml-new/slide16.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xml-new/slide17.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xml-new/slide4.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xml-new/slide5.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xml-new/slide6.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xml-new/slide7.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xml-new/slide8.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xml-new/slide9.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xml-new/toc.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-lab-new/sol.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-lab-new/toc.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/notes.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/slide1.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/slide11.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/slide14.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/slide15.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/slide16.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/slide17.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/slide18.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/slide19.html": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/slide20.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/slide22.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/slide26.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/slide28.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/toc.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/xsl.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~rajesh": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~roger": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~roger/cpp": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~roger/cpp/week13.htm": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~roger/cpp/week14.htm": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~roger/cpp/week15.htm": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~roger/cpp/week16.htm": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~roger/cpp/week17.htm": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~roger/cpp/week18.htm": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~roger/cpp/week19.htm": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~roger/cpp/week20.htm": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~roger/cpp/week21.htm": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~roger/cpp/week22.htm": [
         1, 
-        1.0, 
-        1.0, 
         0.0022, 
         0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~roger/home.html#book": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~roger/mscbook.html#dbase": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~roger/spellchecking.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~sandeep": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~sjmaybank": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~sjmaybank/ibip.html": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~sven": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~szabolcs": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ], 
     "http://www.dcs.bbk.ac.uk/~trevor": [
         1, 
-        0.0028, 
-        0.0028, 
-        0.0028, 
-        0.0028
+        0.0022, 
+        0.0022
     ]
 }

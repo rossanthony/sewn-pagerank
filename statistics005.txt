@@ -1,0 +1,15 @@
+Teleportation factor: 0.05
+Convergence threashold: +/-0.0001
+Reached full convergence in 134 iterations
+Sum of all pageranks: 0.4173
+Done!
+...
+PR iteration trace saved to: `pagerank005_workings.txt`
+Final PR values saved to: `pagerank005.txt`
+Total (unique) visited pages: 462 (of which 111 are dangling)
+Total number of inlinks: 1081 | outlinks: 1081
+Mean number of inlinks: 2 | outlinks: 2
+Mean number of inlinks: 2 | outlinks: 2
+Variance of inlinks: 8 | outlinks: 11
+Standard deviation of inlinks: 2 | outlinks: 3
+Degree of distribution saved to: inlinksPerPage.txt, outlinksPerPage.txt

@@ -105,6 +105,10 @@ class PageRank(object):
         self.matrix = np.matrix(allPages)
 
 
+    # Initialise the pageRanks, set them all to 1.
+    #
+    # Returns: Bool
+    #
     def initPageRanks(self):
         # initialise PR values to 1
         self.stats = "Teleportation factor: %.2f\n" % self.teleportationFactor
@@ -113,7 +117,11 @@ class PageRank(object):
         for page in self.visitedPages:
             self.pageRanks[page] = [1]
             
-        
+    
+    # Main method handling the PageRank calculations
+    #
+    # Returns: Bool
+    #  
     def calcPageRanks(self):
         iteration = 0
         convergedCount = 0
@@ -126,18 +134,18 @@ class PageRank(object):
                 inlinks = self.inlinks[page]
                 outlinks = self.linksOnPages[page]
 
-                if len(outlinks) > 0:
-                    pageRanksOfInlinks = []
-                    for link in inlinks:
-                        pageRanksOfInlinks.append( self.pageRanks[link][iteration-1] / self.outlinkCounts[link] )
+                pageRanksOfInlinks = []
+                for link in inlinks:
+                    pageRanksOfInlinks.append( self.pageRanks[link][iteration-1] / self.outlinkCounts[link] )
 
-                    # random surfer version of PR algorithm
-                    rank = self.teleportationFactor / self.nonDanglingPages + (1 - self.teleportationFactor) * sum(pageRanksOfInlinks)
-                else:
-                    # print "page %s has no outlinks" % page
-                    # print "using previous rank: %f" % self.pageRanks[page][iteration-1]
-                    rank = self.pageRanks[page][iteration-1]
+                # add inlinks for dangling pages to all pageranks
+                for pageUrl, linksOnPage in self.linksOnPages.items():
+                    if len(linksOnPage) == 0:
+                        pageRanksOfInlinks.append( self.pageRanks[pageUrl][iteration-1] / len(self.visitedPages))
 
+                # random surfer version of PR algorithm
+                rank = self.teleportationFactor / len(self.visitedPages) + (1 - self.teleportationFactor) * sum(pageRanksOfInlinks)
+                
                 self.pageRanks[page].append(round(rank, self.dp))    
                 totalPagerank = totalPagerank + rank
             
@@ -149,39 +157,8 @@ class PageRank(object):
                 # else:
                 #     print "Iteration = %d, page %s not converged" % (iteration, page)
 
-        self.stats += "Reached convergence of non-dangling pages in %d iterations\n" % iteration
-
-        self.stats += "Now calculating PR's for the dangling pages...\n"
-        convergedCount = 0
-
-        while convergedCount < len(self.visitedPages):
-            iteration+=1
-            totalPagerank = 0.0
-
-            for page in self.visitedPages:
-                inlinks = self.inlinks[page]
-                outlinks = self.linksOnPages[page]
-
-                if len(outlinks) == 0:
-                    pageRanksOfInlinks = []
-                    for link in inlinks:
-                        pageRanksOfInlinks.append( self.pageRanks[link][iteration-1] / self.outlinkCounts[link] )
-
-                    # random surfer version of PR algorithm
-                    rank = self.teleportationFactor / len(self.visitedPages) + (1 - self.teleportationFactor) * sum(pageRanksOfInlinks)
-                else:
-                    rank = self.pageRanks[page][iteration-1]
-
-                self.pageRanks[page].append(round(rank, self.dp))    
-                totalPagerank = totalPagerank + rank
-            
-            # check for convergence
-            convergedCount = 0
-            for page in self.visitedPages:
-                if self.pageRanks[page][iteration] >= self.pageRanks[page][iteration-1] - self.convergence:
-                    convergedCount+=1
-
         self.stats += "Reached full convergence in %d iterations\n" % iteration
+        self.addSumofPRsToStats(iteration)
         self.stats += "Done!\n...\n"
 
         filename = "pagerank%.2f_workings" % self.teleportationFactor
@@ -254,7 +231,14 @@ class PageRank(object):
         self.stats += "Degree of distribution saved to: inlinksPerPage.txt, outlinksPerPage.txt\n"
         
         print self.stats
-        
+
+    
+    def addSumofPRsToStats(self, iteration):
+        totalPagerank = 0.0
+        for page in self.visitedPages:
+            totalPagerank = totalPagerank + self.pageRanks[page][iteration]
+        self.stats += "Sum of all pageranks: %.4f\n" % totalPagerank
+
 
     # Save the link matrix as a csv
     # 
@@ -299,14 +283,10 @@ class PageRank(object):
 
 
     def saveOutput(self):
-        output = self.stats
-        # for visitedUrl in self.visitedPages:
-        #     output += "\"%s\": " % visitedUrl
-        #     output += json.dumps(self.linksOnPages[visitedUrl], sort_keys=True, indent=4)
-        #     output += ",\n"
-        output += "\n"
-        crawlerFile = open("statistics.txt", "w")
-        crawlerFile.write(str(output))
+        filename = "statistics%.2f" % self.teleportationFactor
+        filename = filename.replace('.','') + ".txt"
+        crawlerFile = open(filename, "w")
+        crawlerFile.write(str(self.stats))
         crawlerFile.close()
         return True
 

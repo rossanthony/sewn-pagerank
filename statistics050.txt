@@ -1,12 +1,11 @@
-Teleportation factor: 0.15
+Teleportation factor: 0.50
 Convergence threashold: +/-0.0001
-Reached convergence of non-dangling pages in 50 iterations
-Now calculating PR's for the dangling pages...
-Reached full convergence in 52 iterations
+Reached full convergence in 15 iterations
+Sum of all pageranks: 0.8676
 Done!
 ...
-PR iteration trace saved to: `pagerank015_workings.txt`
-Final PR values saved to: `pagerank015.txt`
+PR iteration trace saved to: `pagerank050_workings.txt`
+Final PR values saved to: `pagerank050.txt`
 Total (unique) visited pages: 462 (of which 111 are dangling)
 Total number of inlinks: 1081 | outlinks: 1081
 Mean number of inlinks: 2 | outlinks: 2
@@ -14,4 +13,3 @@ Mean number of inlinks: 2 | outlinks: 2
 Variance of inlinks: 8 | outlinks: 11
 Standard deviation of inlinks: 2 | outlinks: 3
 Degree of distribution saved to: inlinksPerPage.txt, outlinksPerPage.txt
-
