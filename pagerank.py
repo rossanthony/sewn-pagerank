@@ -1,11 +1,8 @@
-
-import math
-import urllib
-import numpy as np
-
+import math         # used for sqrt method
+import numpy as np  # used for matrix data type
+import json         # used to output data in json format for legibility
+import urllib       # used to normalise URLs, with the unquote method (i.e. convert %7e to ~)
 from urlparse import urljoin # allows conversion of relative urls into absolute ones 
-import json
-
 
 class PageRank(object):
 
