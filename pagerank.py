@@ -305,7 +305,7 @@ class PageRank(object):
         #     output += json.dumps(self.linksOnPages[visitedUrl], sort_keys=True, indent=4)
         #     output += ",\n"
         output += "\n"
-        crawlerFile = open("output.txt", "w")
+        crawlerFile = open("statistics.txt", "w")
         crawlerFile.write(str(output))
         crawlerFile.close()
         return True
