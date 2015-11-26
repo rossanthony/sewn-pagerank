@@ -265,7 +265,7 @@ class PageRank(object):
 
         # e) The degree distribution of inlinks and outlinks, i.e. tables such as the following:
         self.stats += "\ne) The degree distribution of inlinks and outlinks.\n"
-        self.stats += "\tDegree of distribution saved to: degreeDistInlinks.txt, degreeDistOutlinks.txt\n"
+        self.stats += "\tDegree distribution has been saved to: degreeDistInlinks.txt, degreeDistOutlinks.txt\n"
         
         print self.stats
         
