@@ -1,9 +1,8 @@
 
-from collections import OrderedDict
 import math
 import urllib
 import numpy as np
-import urlparse              # lib for parsing urls
+
 from urlparse import urljoin # allows conversion of relative urls into absolute ones 
 import json
 
@@ -17,7 +16,7 @@ class PageRank(object):
         self.crawledPages  = {} # holds Crawled Pages (read in from file)
         # Constants 
         self.totalOutlinks = 0
-        self.teleportationFactor = 0.15
+        self.teleportationFactor = 1.00
         self.convergence = 0.0001 
         self.dp = 4 # decimal places to round PR's to
         self.maxIterations = 100

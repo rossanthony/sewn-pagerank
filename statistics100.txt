@@ -23,4 +23,4 @@ c,d) The average (mean) number of in/outlinks to/from a page, variance and the s
 	Standard deviation of inlinks: 2 | outlinks: 3
 
 e) The degree distribution of inlinks and outlinks.
-	Degree of distribution saved to: degreeDistInlinks.txt, degreeDistOutlinks.txt
+	Degree distribution has been saved to: degreeDistInlinks.txt, degreeDistOutlinks.txt
