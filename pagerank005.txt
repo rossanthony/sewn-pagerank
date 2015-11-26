@@ -1,17 +1,17 @@
-# iterations: 134
-	http://www.dcs.bbk.ac.uk/~gilda	0.0149
-	http://www.dcs.bbk.ac.uk/tristarp/rr11a/rr11a.html#progressing	0.0128
-	http://www.dcs.bbk.ac.uk/~gpapa05/blogger/2005_03_01_archive.html	0.0125
-	http://www.dcs.bbk.ac.uk/~gpapa05/blogger/2005_02_01_archive.html	0.0125
+# iterations: 100
+	http://www.dcs.bbk.ac.uk/~gilda	0.0283
+	http://www.dcs.bbk.ac.uk/tristarp/rr11a/rr11a.html#progressing	0.0255
+	http://www.dcs.bbk.ac.uk/~gpapa05/blogger/2005_03_01_archive.html	0.0153
+	http://www.dcs.bbk.ac.uk/~gpapa05/blogger/2005_02_01_archive.html	0.0153
+	http://www.dcs.bbk.ac.uk/~jgrob01/weblogs.html	0.0126
+	http://www.dcs.bbk.ac.uk/~jgrob01	0.0124
+	http://www.dcs.bbk.ac.uk/~ptw/cv.html	0.0118
+	http://www.dcs.bbk.ac.uk/~kgaga01/test.htm	0.0118
+	http://www.dcs.bbk.ac.uk/~kgaga01/index.htm	0.0118
 	http://www.dcs.bbk.ac.uk/~gmagoulas/bio.html	0.0094
 	http://www.dcs.bbk.ac.uk/~kevin/blog	0.0076
 	http://www.dcs.bbk.ac.uk/~gmagoulas/links.html	0.0068
-	http://www.dcs.bbk.ac.uk/~jgrob01	0.0063
-	http://www.dcs.bbk.ac.uk/~jgrob01/weblogs.html	0.0062
 	http://www.dcs.bbk.ac.uk/index.html	0.006
-	http://www.dcs.bbk.ac.uk/~ptw/cv.html	0.0057
-	http://www.dcs.bbk.ac.uk/~kgaga01/test.htm	0.0057
-	http://www.dcs.bbk.ac.uk/~kgaga01/index.htm	0.0057
 	http://www.dcs.bbk.ac.uk	0.0057
 	http://www.dcs.bbk.ac.uk/~kevin/dbmblog	0.0054
 	http://www.dcs.bbk.ac.uk/~gmagoulas/research.html	0.0052

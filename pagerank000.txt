@@ -1,151 +1,185 @@
-# iterations: 97
-	http://www.dcs.bbk.ac.uk/~gilda	2.8
-	http://www.dcs.bbk.ac.uk/tristarp/rr11a/rr11a.html#progressing	2.613
-	http://www.dcs.bbk.ac.uk/~jgrob01/weblogs.html	1.285
-	http://www.dcs.bbk.ac.uk/~jgrob01	1.285
-	http://www.dcs.bbk.ac.uk/~ptw/cv.html	1.248
-	http://www.dcs.bbk.ac.uk/~kgaga01/test.htm	1.248
-	http://www.dcs.bbk.ac.uk/~kgaga01/index.htm	1.248
-	http://www.dcs.bbk.ac.uk/~gpapa05/blogger/2005_03_01_archive.html	0.711
-	http://www.dcs.bbk.ac.uk/~gpapa05/blogger/2005_02_01_archive.html	0.711
-	http://www.dcs.bbk.ac.uk/~gmagoulas/bio.html	0.028
-	http://www.dcs.bbk.ac.uk/~gmagoulas/links.html	0.018
-	http://www.dcs.bbk.ac.uk/~gmagoulas/research.html	0.015
-	http://www.dcs.bbk.ac.uk/~gmagoulas/publications.html	0.011
-	http://www.dcs.bbk.ac.uk/~kevin/blog	0.008
-	http://www.dcs.bbk.ac.uk/~kevin/webtech2006	0.007
-	http://www.dcs.bbk.ac.uk/~kevin/dbmblog	0.007
-	http://www.dcs.bbk.ac.uk/webdyn2/programme.html	0.007
-	http://www.dcs.bbk.ac.uk/webdyn2/progcomm.html	0.007
-	http://www.dcs.bbk.ac.uk/webdyn2/index.html	0.007
-	http://www.dcs.bbk.ac.uk/webdyn2/format.html	0.007
-	http://www.dcs.bbk.ac.uk/webdyn2/dates.html	0.007
-	http://www.dcs.bbk.ac.uk/index.html	0.007
-	http://www.dcs.bbk.ac.uk/webdyn	0.006
-	http://www.dcs.bbk.ac.uk/trails/showcase1.html	0.006
-	http://www.dcs.bbk.ac.uk/trails/results.html	0.006
-	http://www.dcs.bbk.ac.uk/trails/index.html	0.006
-	http://www.dcs.bbk.ac.uk/~lselm01/index.html	0.005
-	http://www.dcs.bbk.ac.uk/webdyn3/subs.html	0.005
-	http://www.dcs.bbk.ac.uk/webdyn3/programme.html	0.005
-	http://www.dcs.bbk.ac.uk/webdyn3/progcomm.html	0.005
-	http://www.dcs.bbk.ac.uk/webdyn3/index.html	0.005
-	http://www.dcs.bbk.ac.uk/webdyn3/format.html	0.005
-	http://www.dcs.bbk.ac.uk/webdyn3/dates.html	0.005
-	http://www.dcs.bbk.ac.uk/icdt2001	0.005
-	http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/000148.html	0.004
-	http://www.dcs.bbk.ac.uk/~gmagoulas/teaching.html	0.004
-	http://www.dcs.bbk.ac.uk/~gmagoulas/home.html	0.004
-	http://www.dcs.bbk.ac.uk/~lselm01/mscais_search_optimization.html	0.003
-	http://www.dcs.bbk.ac.uk/~kliee08/rss/bbcrss.htm	0.003
-	http://www.dcs.bbk.ac.uk/~kliee08	0.003
-	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000157.html	0.003
-	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000156.html	0.003
-	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000153.html	0.003
-	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000152.html	0.003
-	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000151.html	0.003
-	http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/000147.html	0.003
-	http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/000144.html	0.003
-	http://www.dcs.bbk.ac.uk/~gmagoulas/contact.html	0.003
-	http://www.dcs.bbk.ac.uk/~gmagoulas	0.003
-	http://www.dcs.bbk.ac.uk/icdt2001/index.html	0.003
-	http://www.dcs.bbk.ac.uk/icdt2001/icdt_reg.html	0.003
-	http://www.dcs.bbk.ac.uk/icdt2001/icdt_program.html	0.003
-	http://www.dcs.bbk.ac.uk/icdt2001/icdt_info.html	0.003
-	http://www.dcs.bbk.ac.uk/icdt2001/icdt_hist.html	0.003
-	http://www.dcs.bbk.ac.uk/icdt2001/icdt_call.html	0.003
-	http://www.dcs.bbk.ac.uk/icdt2001/icdt_burs.html	0.003
-	http://www.dcs.bbk.ac.uk/icdt2001/icdt_accom.html	0.003
-	http://www.dcs.bbk.ac.uk/courses/ais/students/2006	0.003
-	http://www.dcs.bbk.ac.uk/~lselm01/syndicated_content.html	0.002
-	http://www.dcs.bbk.ac.uk/~krago01/rss/rss.xml	0.002
-	http://www.dcs.bbk.ac.uk/~krago01/index.html	0.002
-	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000158.html	0.002
-	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000150.html	0.002
-	http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/000149.html	0.002
-	http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/000047.html	0.002
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000155.html	0.002
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000154.html	0.002
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000142.html	0.002
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000131.html	0.002
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000113.html	0.002
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000107.html	0.002
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000074.html	0.002
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000023.html	0.002
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000009.html	0.002
-	http://www.dcs.bbk.ac.uk/~jchib01/home.html	0.002
-	http://www.dcs.bbk.ac.uk/~gmagoulas/wblc.htm	0.002
-	http://www.dcs.bbk.ac.uk/~gmagoulas/jit_pie.htm	0.002
-	http://www.dcs.bbk.ac.uk/~dionisis	0.002
-	http://www.dcs.bbk.ac.uk/~aris	0.002
-	http://www.dcs.bbk.ac.uk/~ap	0.002
-	http://www.dcs.bbk.ac.uk/ukci05	0.002
-	http://www.dcs.bbk.ac.uk/ukci	0.002
-	http://www.dcs.bbk.ac.uk/trails/showcase.htm	0.002
-	http://www.dcs.bbk.ac.uk	0.002
-	http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/xsl.html	0.001
-	http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/notes.html	0.001
-	http://www.dcs.bbk.ac.uk/~ptw/teaching/notes-new.xsl	0.001
-	http://www.dcs.bbk.ac.uk/~ptw	0.001
-	http://www.dcs.bbk.ac.uk/~mark/webtech.html	0.001
-	http://www.dcs.bbk.ac.uk/~mark/optdb.html	0.001
-	http://www.dcs.bbk.ac.uk/~mark	0.001
-	http://www.dcs.bbk.ac.uk/~lucas/projects/ispider	0.001
-	http://www.dcs.bbk.ac.uk/~lselm01/rss.xml	0.001
-	http://www.dcs.bbk.ac.uk/~lsekh01/index.html	0.001
-	http://www.dcs.bbk.ac.uk/~krago01/syndicate.html	0.001
-	http://www.dcs.bbk.ac.uk/~krago01/resource.html	0.001
-	http://www.dcs.bbk.ac.uk/~krago01/news.html	0.001
-	http://www.dcs.bbk.ac.uk/~khunn01/search_engines.html	0.001
-	http://www.dcs.bbk.ac.uk/~khunn01/rss/rss_feed.xml	0.001
-	http://www.dcs.bbk.ac.uk/~khunn01/rss/my_rss_feed.html	0.001
-	http://www.dcs.bbk.ac.uk/~khunn01/library.html	0.001
-	http://www.dcs.bbk.ac.uk/~khunn01/index.html	0.001
-	http://www.dcs.bbk.ac.uk/~khunn01/credits.html	0.001
-	http://www.dcs.bbk.ac.uk/~kgrew01/news.html	0.001
-	http://www.dcs.bbk.ac.uk/~kgrew01/links.html	0.001
-	http://www.dcs.bbk.ac.uk/~kgrew01/index.html	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/index.xml	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/index.rdf	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/2006_10.html	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/mscaissearchoptimization/mscais-search-optimization.html	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/mpwp	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/dbmblog/index.rdf	0.001
+# iterations: 100
+	http://www.dcs.bbk.ac.uk/~gilda	2.7974
+	http://www.dcs.bbk.ac.uk/tristarp/rr11a/rr11a.html#progressing	2.6102
+	http://www.dcs.bbk.ac.uk/~jgrob01/weblogs.html	1.2852
+	http://www.dcs.bbk.ac.uk/~jgrob01	1.2838
+	http://www.dcs.bbk.ac.uk/~ptw/cv.html	1.2439
+	http://www.dcs.bbk.ac.uk/~kgaga01/test.htm	1.2439
+	http://www.dcs.bbk.ac.uk/~kgaga01/index.htm	1.2439
+	http://www.dcs.bbk.ac.uk/~gpapa05/blogger/2005_03_01_archive.html	0.6596
+	http://www.dcs.bbk.ac.uk/~gpapa05/blogger/2005_02_01_archive.html	0.6596
+	http://www.dcs.bbk.ac.uk/~gmagoulas/bio.html	0.0238
+	http://www.dcs.bbk.ac.uk/~gmagoulas/links.html	0.0151
+	http://www.dcs.bbk.ac.uk/~gmagoulas/research.html	0.0127
+	http://www.dcs.bbk.ac.uk/~gmagoulas/publications.html	0.0095
+	http://www.dcs.bbk.ac.uk/~kevin/dbmblog	0.0058
+	http://www.dcs.bbk.ac.uk/~gmagoulas/teaching.html	0.0036
+	http://www.dcs.bbk.ac.uk/~gmagoulas/home.html	0.0032
+	http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/000148.html	0.003
+	http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/000147.html	0.0026
+	http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/000144.html	0.0026
+	http://www.dcs.bbk.ac.uk/~gmagoulas	0.0025
+	http://www.dcs.bbk.ac.uk/~gmagoulas/contact.html	0.0024
+	http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/000149.html	0.0022
+	http://www.dcs.bbk.ac.uk/~kevin/blog	0.0021
+	http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/000047.html	0.0015
+	http://www.dcs.bbk.ac.uk/~dionisis	0.0015
+	http://www.dcs.bbk.ac.uk/~gmagoulas/wblc.htm	0.0013
+	http://www.dcs.bbk.ac.uk/~gmagoulas/jit_pie.htm	0.0013
+	http://www.dcs.bbk.ac.uk/~aris	0.0013
+	http://www.dcs.bbk.ac.uk/ukci05	0.0013
+	http://www.dcs.bbk.ac.uk/ukci	0.0013
+	http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/2006_02.html	0.0012
+	http://www.dcs.bbk.ac.uk/index.html	0.0012
 	http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/2006_03.html	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/2006_02.html	0.001
 	http://www.dcs.bbk.ac.uk/~kevin/dbmblog/archives/2006_01.html	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2006_10.html	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2005_12.html	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2005_11.html	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2005_10.html	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2005_05.html	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2004_05.html	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2003_11.html	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2003_10.html	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000159.html	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000012.html	0.001
-	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000005.html	0.001
-	http://www.dcs.bbk.ac.uk/~jchib01/rss/rss2.xml	0.001
-	http://www.dcs.bbk.ac.uk/~jchib01/mining.html	0.001
-	http://www.dcs.bbk.ac.uk/~gpapa05/blogger/2005_07_01_archive.html	0.001
-	http://www.dcs.bbk.ac.uk/~gpapa05/blogger/2005_05_01_archive.html	0.001
-	http://www.dcs.bbk.ac.uk/webmail	0.001
-	http://www.dcs.bbk.ac.uk/webdyn2	0.001
-	http://www.dcs.bbk.ac.uk/webdyn/programme.html	0.001
-	http://www.dcs.bbk.ac.uk/webdyn/progcomm.html	0.001
-	http://www.dcs.bbk.ac.uk/webdyn/location.html	0.001
-	http://www.dcs.bbk.ac.uk/webdyn/index.html	0.001
-	http://www.dcs.bbk.ac.uk/webdyn/format.html	0.001
-	http://www.dcs.bbk.ac.uk/webdyn/dates.html	0.001
-	http://www.dcs.bbk.ac.uk/webdyn/abstracts.html	0.001
-	http://www.dcs.bbk.ac.uk/icdt2001/arrival.html	0.001
-	http://www.dcs.bbk.ac.uk/courses/ais/students/2005	0.001
-	http://www.dcs.bbk.ac.uk/courses/ais	0.001
+	http://www.dcs.bbk.ac.uk/~mark/optdb.html	0.0009
+	http://www.dcs.bbk.ac.uk/webdyn2/programme.html	0.0008
+	http://www.dcs.bbk.ac.uk/webdyn2/progcomm.html	0.0008
+	http://www.dcs.bbk.ac.uk/webdyn2/index.html	0.0008
+	http://www.dcs.bbk.ac.uk/webdyn2/format.html	0.0008
+	http://www.dcs.bbk.ac.uk/webdyn2/dates.html	0.0008
+	http://www.dcs.bbk.ac.uk/webdyn	0.0008
+	http://www.dcs.bbk.ac.uk/icdt2001	0.0008
+	http://www.dcs.bbk.ac.uk/~lselm01/index.html	0.0007
+	http://www.dcs.bbk.ac.uk/~kevin/webtech2006	0.0007
+	http://www.dcs.bbk.ac.uk/~kevin/dbmblog/index.rdf	0.0007
+	http://www.dcs.bbk.ac.uk/trails/showcase1.html	0.0007
+	http://www.dcs.bbk.ac.uk/trails/results.html	0.0007
+	http://www.dcs.bbk.ac.uk/trails/index.html	0.0007
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000074.html	0.0006
+	http://www.dcs.bbk.ac.uk/webdyn3/subs.html	0.0006
+	http://www.dcs.bbk.ac.uk/webdyn3/programme.html	0.0006
+	http://www.dcs.bbk.ac.uk/webdyn3/progcomm.html	0.0006
+	http://www.dcs.bbk.ac.uk/webdyn3/index.html	0.0006
+	http://www.dcs.bbk.ac.uk/webdyn3/format.html	0.0006
+	http://www.dcs.bbk.ac.uk/webdyn3/dates.html	0.0006
+	http://www.dcs.bbk.ac.uk/courses/ism	0.0006
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000131.html	0.0005
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000113.html	0.0005
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000107.html	0.0005
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000023.html	0.0005
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000009.html	0.0005
+	http://www.dcs.bbk.ac.uk/enquiry.html	0.0005
+	http://www.dcs.bbk.ac.uk/courses/ais/students/2006	0.0005
+	http://www.dcs.bbk.ac.uk/~lselm01/mscais_search_optimization.html	0.0004
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000155.html	0.0004
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000154.html	0.0004
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000142.html	0.0004
+	http://www.dcs.bbk.ac.uk/~mark/ism_db_option_coursework.htm	0.0003
+	http://www.dcs.bbk.ac.uk/~kliee08/rss/bbcrss.htm	0.0003
+	http://www.dcs.bbk.ac.uk/~kliee08	0.0003
+	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000157.html	0.0003
+	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000156.html	0.0003
+	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000153.html	0.0003
+	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000152.html	0.0003
+	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000151.html	0.0003
+	http://www.dcs.bbk.ac.uk/~kevin/mscaissearchoptimization/mscais-search-optimization.html	0.0003
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2005_05.html	0.0003
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000012.html	0.0003
+	http://www.dcs.bbk.ac.uk/icdt2001/index.html	0.0003
+	http://www.dcs.bbk.ac.uk/icdt2001/icdt_reg.html	0.0003
+	http://www.dcs.bbk.ac.uk/icdt2001/icdt_program.html	0.0003
+	http://www.dcs.bbk.ac.uk/icdt2001/icdt_info.html	0.0003
+	http://www.dcs.bbk.ac.uk/icdt2001/icdt_hist.html	0.0003
+	http://www.dcs.bbk.ac.uk/icdt2001/icdt_call.html	0.0003
+	http://www.dcs.bbk.ac.uk/icdt2001/icdt_burs.html	0.0003
+	http://www.dcs.bbk.ac.uk/icdt2001/icdt_accom.html	0.0003
+	http://www.dcs.bbk.ac.uk	0.0003
+	http://www.dcs.bbk.ac.uk/~sjmaybank	0.0002
+	http://www.dcs.bbk.ac.uk/~ptw	0.0002
+	http://www.dcs.bbk.ac.uk/~mick	0.0002
+	http://www.dcs.bbk.ac.uk/~mark/webtech.html	0.0002
+	http://www.dcs.bbk.ac.uk/~mark	0.0002
+	http://www.dcs.bbk.ac.uk/~lselm01/syndicated_content.html	0.0002
+	http://www.dcs.bbk.ac.uk/~krago01/rss/rss.xml	0.0002
+	http://www.dcs.bbk.ac.uk/~krago01/index.html	0.0002
+	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000158.html	0.0002
+	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/000150.html	0.0002
+	http://www.dcs.bbk.ac.uk/~kevin/mpwp	0.0002
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2006_10.html	0.0002
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2005_12.html	0.0002
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2005_11.html	0.0002
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2005_10.html	0.0002
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2004_05.html	0.0002
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2003_11.html	0.0002
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/2003_10.html	0.0002
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000159.html	0.0002
+	http://www.dcs.bbk.ac.uk/~kevin/blog/archives/000005.html	0.0002
+	http://www.dcs.bbk.ac.uk/~kasia	0.0002
+	http://www.dcs.bbk.ac.uk/~jchib01/home.html	0.0002
+	http://www.dcs.bbk.ac.uk/~dave	0.0002
+	http://www.dcs.bbk.ac.uk/~ap	0.0002
+	http://www.dcs.bbk.ac.uk/webdyn/programme.html	0.0002
+	http://www.dcs.bbk.ac.uk/webdyn/progcomm.html	0.0002
+	http://www.dcs.bbk.ac.uk/webdyn/location.html	0.0002
+	http://www.dcs.bbk.ac.uk/webdyn/index.html	0.0002
+	http://www.dcs.bbk.ac.uk/webdyn/format.html	0.0002
+	http://www.dcs.bbk.ac.uk/webdyn/dates.html	0.0002
+	http://www.dcs.bbk.ac.uk/webdyn/abstracts.html	0.0002
+	http://www.dcs.bbk.ac.uk/trails/showcase.htm	0.0002
+	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=sjmaybank	0.0002
+	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=nimali	0.0002
+	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=dave	0.0002
+	http://www.dcs.bbk.ac.uk/courses/ais/students/2005	0.0002
+	http://www.dcs.bbk.ac.uk/courses/ais	0.0002
+	http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/xsl.html	0.0001
+	http://www.dcs.bbk.ac.uk/~ptw/teaching/xsl-new/notes.html	0.0001
+	http://www.dcs.bbk.ac.uk/~ptw/teaching/notes-new.xsl	0.0001
+	http://www.dcs.bbk.ac.uk/~lzang01	0.0001
+	http://www.dcs.bbk.ac.uk/~lwalt03	0.0001
+	http://www.dcs.bbk.ac.uk/~lucas/projects/ispider	0.0001
+	http://www.dcs.bbk.ac.uk/~lselm01/rss.xml	0.0001
+	http://www.dcs.bbk.ac.uk/~lselm01	0.0001
+	http://www.dcs.bbk.ac.uk/~lsekh01/index.html	0.0001
+	http://www.dcs.bbk.ac.uk/~lsekh01	0.0001
+	http://www.dcs.bbk.ac.uk/~loshe01	0.0001
+	http://www.dcs.bbk.ac.uk/~lfour01	0.0001
+	http://www.dcs.bbk.ac.uk/~krago01/syndicate.html	0.0001
+	http://www.dcs.bbk.ac.uk/~krago01/resource.html	0.0001
+	http://www.dcs.bbk.ac.uk/~krago01/news.html	0.0001
+	http://www.dcs.bbk.ac.uk/~khunn01/search_engines.html	0.0001
+	http://www.dcs.bbk.ac.uk/~khunn01/rss/rss_feed.xml	0.0001
+	http://www.dcs.bbk.ac.uk/~khunn01/rss/my_rss_feed.html	0.0001
+	http://www.dcs.bbk.ac.uk/~khunn01/library.html	0.0001
+	http://www.dcs.bbk.ac.uk/~khunn01/index.html	0.0001
+	http://www.dcs.bbk.ac.uk/~khunn01/credits.html	0.0001
+	http://www.dcs.bbk.ac.uk/~kgrew01/news.html	0.0001
+	http://www.dcs.bbk.ac.uk/~kgrew01/links.html	0.0001
+	http://www.dcs.bbk.ac.uk/~kgrew01/index.html	0.0001
+	http://www.dcs.bbk.ac.uk/~kgaga01	0.0001
+	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/index.xml	0.0001
+	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/index.rdf	0.0001
+	http://www.dcs.bbk.ac.uk/~kevin/webtech2006/archives/2006_10.html	0.0001
+	http://www.dcs.bbk.ac.uk/~kevin/blog/index.rdf	0.0001
+	http://www.dcs.bbk.ac.uk/~jchib01/rss/rss2.xml	0.0001
+	http://www.dcs.bbk.ac.uk/~jchib01/mining.html	0.0001
+	http://www.dcs.bbk.ac.uk/~gpapa05/blogger/2005_07_01_archive.html	0.0001
+	http://www.dcs.bbk.ac.uk/~gpapa05/blogger/2005_05_01_archive.html	0.0001
+	http://www.dcs.bbk.ac.uk/~george	0.0001
+	http://www.dcs.bbk.ac.uk/~dell	0.0001
+	http://www.dcs.bbk.ac.uk/webmail	0.0001
+	http://www.dcs.bbk.ac.uk/webdyn2	0.0001
+	http://www.dcs.bbk.ac.uk/research/degrees-info.html	0.0001
+	http://www.dcs.bbk.ac.uk/research/dbtech	0.0001
+	http://www.dcs.bbk.ac.uk/icdt2001/arrival.html	0.0001
+	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=tara	0.0001
+	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=mick	0.0001
+	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=kasia	0.0001
+	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=gmagoulas	0.0001
+	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=dell	0.0001
+	http://www.dcs.bbk.ac.uk/courses/wim	0.0001
+	http://www.dcs.bbk.ac.uk/courses/mres	0.0001
+	http://www.dcs.bbk.ac.uk/courses/itapps	0.0001
+	http://www.dcs.bbk.ac.uk/courses/iis	0.0001
+	http://www.dcs.bbk.ac.uk/courses/fdit	0.0001
+	http://www.dcs.bbk.ac.uk/courses/etech	0.0001
+	http://www.dcs.bbk.ac.uk/courses/eprog	0.0001
+	http://www.dcs.bbk.ac.uk/courses/cs	0.0001
 	http://www.dcs.bbk.ac.uk/~trevor	0.0
 	http://www.dcs.bbk.ac.uk/~szabolcs	0.0
 	http://www.dcs.bbk.ac.uk/~sven	0.0
 	http://www.dcs.bbk.ac.uk/~sjmaybank/ibip.html	0.0
-	http://www.dcs.bbk.ac.uk/~sjmaybank	0.0
 	http://www.dcs.bbk.ac.uk/~sandeep	0.0
 	http://www.dcs.bbk.ac.uk/~roger/spellchecking.html	0.0
 	http://www.dcs.bbk.ac.uk/~roger/mscbook.html#dbase	0.0
@@ -256,7 +290,6 @@
 	http://www.dcs.bbk.ac.uk/~mirkin/advanced/diyml/code	0.0
 	http://www.dcs.bbk.ac.uk/~mirkin/advanced/diyml	0.0
 	http://www.dcs.bbk.ac.uk/~mirkin/advanced	0.0
-	http://www.dcs.bbk.ac.uk/~mick	0.0
 	http://www.dcs.bbk.ac.uk/~michael/sw/sw.html	0.0
 	http://www.dcs.bbk.ac.uk/~michael	0.0
 	http://www.dcs.bbk.ac.uk/~mark/web_plan.html	0.0
@@ -268,28 +301,21 @@
 	http://www.dcs.bbk.ac.uk/~mark/relational_book.html	0.0
 	http://www.dcs.bbk.ac.uk/~mark/papers.html	0.0
 	http://www.dcs.bbk.ac.uk/~mark/mail.html	0.0
-	http://www.dcs.bbk.ac.uk/~mark/ism_db_option_coursework.htm	0.0
 	http://www.dcs.bbk.ac.uk/~mark/handheld.html	0.0
 	http://www.dcs.bbk.ac.uk/~mark/games.html	0.0
 	http://www.dcs.bbk.ac.uk/~mark/family.html	0.0
 	http://www.dcs.bbk.ac.uk/~mark/errata_search_engine_book.html	0.0
 	http://www.dcs.bbk.ac.uk/~mark/cfp_cj_profiling.txt	0.0
 	http://www.dcs.bbk.ac.uk/~mark/bookshops.html	0.0
-	http://www.dcs.bbk.ac.uk/~lzang01	0.0
 	http://www.dcs.bbk.ac.uk/~lwalt03/site_news.xml	0.0
 	http://www.dcs.bbk.ac.uk/~lwalt03/rss_feeds.htm	0.0
 	http://www.dcs.bbk.ac.uk/~lwalt03/mscais search optimization.htm	0.0
-	http://www.dcs.bbk.ac.uk/~lwalt03	0.0
 	http://www.dcs.bbk.ac.uk/~lucas/projects	0.0
 	http://www.dcs.bbk.ac.uk/~lucas	0.0
-	http://www.dcs.bbk.ac.uk/~lselm01	0.0
-	http://www.dcs.bbk.ac.uk/~lsekh01	0.0
-	http://www.dcs.bbk.ac.uk/~loshe01	0.0
 	http://www.dcs.bbk.ac.uk/~lfour01/youtubevideo.html	0.0
 	http://www.dcs.bbk.ac.uk/~lfour01/syndicate.html	0.0
 	http://www.dcs.bbk.ac.uk/~lfour01/rss.xml	0.0
 	http://www.dcs.bbk.ac.uk/~lfour01/optimization.html	0.0
-	http://www.dcs.bbk.ac.uk/~lfour01	0.0
 	http://www.dcs.bbk.ac.uk/~krago01	0.0
 	http://www.dcs.bbk.ac.uk/~kmant02	0.0
 	http://www.dcs.bbk.ac.uk/~kliee08/rss/rss.xml	0.0
@@ -312,8 +338,6 @@
 	http://www.dcs.bbk.ac.uk/~khunn01	0.0
 	http://www.dcs.bbk.ac.uk/~kgrew01/news.xml	0.0
 	http://www.dcs.bbk.ac.uk/~kgrew01	0.0
-	http://www.dcs.bbk.ac.uk/~kgaga01	0.0
-	http://www.dcs.bbk.ac.uk/~kevin/blog/index.rdf	0.0
 	http://www.dcs.bbk.ac.uk/~kevin	0.0
 	http://www.dcs.bbk.ac.uk/~kdean02/resources.htm	0.0
 	http://www.dcs.bbk.ac.uk/~kdean02/lambert_dean.xml	0.0
@@ -323,7 +347,6 @@
 	http://www.dcs.bbk.ac.uk/~kbada01/index4.htm	0.0
 	http://www.dcs.bbk.ac.uk/~kbada01/index2.htm	0.0
 	http://www.dcs.bbk.ac.uk/~kbada01	0.0
-	http://www.dcs.bbk.ac.uk/~kasia	0.0
 	http://www.dcs.bbk.ac.uk/~jmudg01/resources.html	0.0
 	http://www.dcs.bbk.ac.uk/~jmudg01/feed/homepage.xml	0.0
 	http://www.dcs.bbk.ac.uk/~jmudg01	0.0
@@ -356,13 +379,10 @@
 	http://www.dcs.bbk.ac.uk/~gpapa05	0.0
 	http://www.dcs.bbk.ac.uk/~ghama01/xml/rss.xml	0.0
 	http://www.dcs.bbk.ac.uk/~ghama01	0.0
-	http://www.dcs.bbk.ac.uk/~george	0.0
 	http://www.dcs.bbk.ac.uk/~dikaios	0.0
 	http://www.dcs.bbk.ac.uk/~dgeor02	0.0
 	http://www.dcs.bbk.ac.uk/~dg	0.0
-	http://www.dcs.bbk.ac.uk/~dell	0.0
 	http://www.dcs.bbk.ac.uk/~dean	0.0
-	http://www.dcs.bbk.ac.uk/~dave	0.0
 	http://www.dcs.bbk.ac.uk/~azy	0.0
 	http://www.dcs.bbk.ac.uk/~ap/teaching	0.0
 	http://www.dcs.bbk.ac.uk/~ap/projects/selene/reports	0.0
@@ -404,9 +424,7 @@
 	http://www.dcs.bbk.ac.uk/research/research_methods.html	0.0
 	http://www.dcs.bbk.ac.uk/research/phdregulations.html	0.0
 	http://www.dcs.bbk.ac.uk/research/phdbbk_public.html	0.0
-	http://www.dcs.bbk.ac.uk/research/degrees-info.html	0.0
 	http://www.dcs.bbk.ac.uk/research/degrees-apply.html	0.0
-	http://www.dcs.bbk.ac.uk/research/dbtech	0.0
 	http://www.dcs.bbk.ac.uk/research/bioinf	0.0
 	http://www.dcs.bbk.ac.uk/research	0.0
 	http://www.dcs.bbk.ac.uk/navigationzone	0.0
@@ -418,35 +436,18 @@
 	http://www.dcs.bbk.ac.uk/icdt2001/hotels.html	0.0
 	http://www.dcs.bbk.ac.uk/icdt2001/hall.html	0.0
 	http://www.dcs.bbk.ac.uk/home.html	0.0
-	http://www.dcs.bbk.ac.uk/enquiry.html	0.0
 	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=trevor	0.0
-	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=tara	0.0
 	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=szabolcs	0.0
 	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=sven	0.0
-	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=sjmaybank	0.0
-	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=nimali	0.0
 	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=niki	0.0
 	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=nigel	0.0
-	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=mick	0.0
 	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=kim	0.0
-	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=kasia	0.0
 	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=jenny	0.0
 	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=janet	0.0
 	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=ian	0.0
-	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=gmagoulas	0.0
 	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=gilda	0.0
 	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=dg	0.0
-	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=dell	0.0
-	http://www.dcs.bbk.ac.uk/dept/staffperson05.asp?name=dave	0.0
-	http://www.dcs.bbk.ac.uk/courses/wim	0.0
-	http://www.dcs.bbk.ac.uk/courses/mres	0.0
-	http://www.dcs.bbk.ac.uk/courses/itapps	0.0
-	http://www.dcs.bbk.ac.uk/courses/ism	0.0
 	http://www.dcs.bbk.ac.uk/courses/isc	0.0
-	http://www.dcs.bbk.ac.uk/courses/iis	0.0
-	http://www.dcs.bbk.ac.uk/courses/fdit	0.0
-	http://www.dcs.bbk.ac.uk/courses/etech	0.0
-	http://www.dcs.bbk.ac.uk/courses/eprog	0.0
 	http://www.dcs.bbk.ac.uk/courses/cs/pt-sample-test.html	0.0
 	http://www.dcs.bbk.ac.uk/courses/cs/pt-qa.html	0.0
 	http://www.dcs.bbk.ac.uk/courses/cs/projects.html	0.0
@@ -454,7 +455,6 @@
 	http://www.dcs.bbk.ac.uk/courses/cs/exams.html#exams	0.0
 	http://www.dcs.bbk.ac.uk/courses/cs/directors-note.html	0.0
 	http://www.dcs.bbk.ac.uk/courses/cs/cs.html	0.0
-	http://www.dcs.bbk.ac.uk/courses/cs	0.0
 	http://www.dcs.bbk.ac.uk/courses/ais/modules/data-warehousing-data-mining.php	0.0
 	http://www.dcs.bbk.ac.uk/courses/ais/modules/advanced-applications.php	0.0
 	http://www.dcs.bbk.ac.uk/courses	0.0

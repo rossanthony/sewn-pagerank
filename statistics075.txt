@@ -6,10 +6,21 @@ Done!
 ...
 PR iteration trace saved to: `pagerank075_workings.txt`
 Final PR values saved to: `pagerank075.txt`
+
 Total (unique) visited pages: 462 (of which 111 are dangling)
 Total number of inlinks: 1081 | outlinks: 1081
-Mean number of inlinks: 2 | outlinks: 2
-Mean number of inlinks: 2 | outlinks: 2
-Variance of inlinks: 8 | outlinks: 11
-Standard deviation of inlinks: 2 | outlinks: 3
-Degree of distribution saved to: inlinksPerPage.txt, outlinksPerPage.txt
+
+a) The number of inlinks to each page.
+	Saved to: inlinksPerPage.txt
+
+b) The number of outlinks to each page.
+	Saved to: outlinksPerPage.txt
+
+c,d) The average (mean) number of in/outlinks to/from a page, variance and the standard deviation.
+	Mean number of inlinks: 2 | outlinks: 2
+	Mean number of inlinks: 2 | outlinks: 2
+	Variance of inlinks: 8 | outlinks: 11
+	Standard deviation of inlinks: 2 | outlinks: 3
+
+e) The degree distribution of inlinks and outlinks.
+	Degree of distribution saved to: degreeDistInlinks.txt, degreeDistOutlinks.txt

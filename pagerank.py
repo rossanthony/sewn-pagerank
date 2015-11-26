@@ -20,6 +20,7 @@ class PageRank(object):
         self.teleportationFactor = 0.15
         self.convergence = 0.0001 
         self.dp = 4 # decimal places to round PR's to
+        self.maxIterations = 100
 
         self.readInCrawlTxt()
         self.buildMatrix()
@@ -29,6 +30,7 @@ class PageRank(object):
         self.calcPageRanks()
         self.outputStats()
         self.saveOutput()
+        # print json.dumps(self.linksOnPages, sort_keys=True, indent=4)
 
     #
     # Returns: Void
@@ -77,7 +79,7 @@ class PageRank(object):
                 if not line:
                     break
                 if line[:8] == 'Visited:':
-                    visited = urllib.unquote(line[9:].strip().rstrip('/'))
+                    visited = urllib.unquote(line[9:].strip().rstrip('/')).lower()
                     if self.isUniqueUrl(visited):
                         self.visitedPages.append(visited)
                         self.linksOnPages[visited] = []
@@ -126,7 +128,7 @@ class PageRank(object):
         iteration = 0
         convergedCount = 0
 
-        while convergedCount < len(self.visitedPages):
+        while convergedCount < len(self.visitedPages) and iteration < self.maxIterations:
             iteration+=1
             totalPagerank = 0.0
 
@@ -187,28 +189,62 @@ class PageRank(object):
 
 
     def outputStats(self):
+        self.stats += "\nTotal (unique) visited pages: %d (of which %d are dangling)" % (len(self.visitedPages), len(self.visitedPages) - self.nonDanglingPages)
+        self.stats += "\nTotal number of inlinks: %d | outlinks: %d\n" % (self.totalInlinks, self.totalOutlinks)
+        
         # a) The number of inlinks to each page.
+        self.stats += "\na) The number of inlinks to each page.\n\tSaved to: inlinksPerPage.txt\n"
         crawlerFile = open('inlinksPerPage.txt', "w")
         inlinksPerPage = "# inlinks per page\n"
+        degreeDistInlinks = []
         for key, value in sorted(self.inlinkCounts.iteritems(), key=lambda (k,v): (v,k), reverse=True):
             inlinksPerPage += "%d\t%s\n" % (value, key)
+            degreeDistInlinks.append(value)
         crawlerFile.write(inlinksPerPage)
         crawlerFile.close()
     
         # b) The number of outlinks from each page.
+        self.stats += "\nb) The number of outlinks to each page.\n\tSaved to: outlinksPerPage.txt\n"
         crawlerFile = open('outlinksPerPage.txt', "w")
         outlinksPerPage = "# outlinks per page\n"
+        degreeDistOutlinks = []
         for key, value in sorted(self.outlinkCounts.iteritems(), key=lambda (k,v): (v,k), reverse=True):
             outlinksPerPage += "%d\t%s\n" % (value, key)
+            degreeDistOutlinks.append(value)
+
         crawlerFile.write(outlinksPerPage)
         crawlerFile.close()
 
+        degreeDistInlinksDict = {}
+        for numLinks in degreeDistInlinks:
+            degreeDistInlinksDict[numLinks] = 0
+        for numLinks in degreeDistInlinks:
+            degreeDistInlinksDict[numLinks] = degreeDistInlinksDict[numLinks] + 1
+        degreeDistInlinksOutput = "# inlinks\t# pages\n"
+        for key, value in sorted(degreeDistInlinksDict.iteritems(), key=lambda t: t[0], reverse=True):
+            degreeDistInlinksOutput += "%s\t\t\t%s\n" % (key, value)
+        degreeDistInlinksFile = open('degreeDistInlinks.txt', "w")
+        degreeDistInlinksFile.write(degreeDistInlinksOutput)
+        degreeDistInlinksFile.close()
+
+        degreeDistOutlinksDict = {}
+        for numLinks in degreeDistOutlinks:
+            degreeDistOutlinksDict[numLinks] = 0
+        for numLinks in degreeDistOutlinks:
+            degreeDistOutlinksDict[numLinks] = degreeDistOutlinksDict[numLinks] + 1
+        degreeDistOutlinksOutput = "# outlinks\t# pages\n"
+        for key, value in sorted(degreeDistOutlinksDict.iteritems(), key=lambda t: t[0], reverse=True):
+            degreeDistOutlinksOutput += "%s\t\t\t%s\n" % (key, value)
+
+        degreeDistOutlinksFile = open('degreeDistOutlinks.txt', "w")
+        degreeDistOutlinksFile.write(degreeDistOutlinksOutput)
+        degreeDistOutlinksFile.close()
+
         # c) The average (mean) number of inlinks to a page, variance and the standard deviation.
+        self.stats += "\nc,d) The average (mean) number of in/outlinks to/from a page, variance and the standard deviation.\n"
         # d) The average (mean) number of outlinks from a page, variance and the standard deviation.
-        self.stats += "Total (unique) visited pages: %d (of which %d are dangling)\n" % (len(self.visitedPages), len(self.visitedPages) - self.nonDanglingPages)
-        self.stats += "Total number of inlinks: %d | outlinks: %d\n" % (self.totalInlinks, self.totalOutlinks)
-        self.stats += "Mean number of inlinks: %d | outlinks: %d\n" % (int(self.totalInlinks) / int(len(self.visitedPages)), int(self.totalOutlinks) / int(len(self.visitedPages)))
-        self.stats += "Mean number of inlinks: %d | outlinks: %d\n" % (int(self.totalInlinks) / int(len(self.visitedPages)), int(self.totalOutlinks) / int(len(self.visitedPages)))
+        self.stats += "\tMean number of inlinks: %d | outlinks: %d\n" % (int(self.totalInlinks) / int(len(self.visitedPages)), int(self.totalOutlinks) / int(len(self.visitedPages)))
+        self.stats += "\tMean number of inlinks: %d | outlinks: %d\n" % (int(self.totalInlinks) / int(len(self.visitedPages)), int(self.totalOutlinks) / int(len(self.visitedPages)))
         
         # To calculate the variance follow these steps: 
         # Work out the Mean (the simple average of the numbers) 
@@ -224,13 +260,15 @@ class PageRank(object):
             outlinkVariance.append((count - (int(self.totalOutlinks) / int(len(self.visitedPages)))) * (count - (int(self.totalOutlinks) / int(len(self.visitedPages)))))
         outlinkVariance = sum(outlinkVariance) / float(len(outlinkVariance))
 
-        self.stats += "Variance of inlinks: %d | outlinks: %d\n" % (inlinkVariance, outlinkVariance)
-        self.stats += "Standard deviation of inlinks: %d | outlinks: %d\n" % (math.sqrt(inlinkVariance), math.sqrt(outlinkVariance))
+        self.stats += "\tVariance of inlinks: %d | outlinks: %d\n" % (inlinkVariance, outlinkVariance)
+        self.stats += "\tStandard deviation of inlinks: %d | outlinks: %d\n" % (math.sqrt(inlinkVariance), math.sqrt(outlinkVariance))
 
         # e) The degree distribution of inlinks and outlinks, i.e. tables such as the following:
-        self.stats += "Degree of distribution saved to: inlinksPerPage.txt, outlinksPerPage.txt\n"
+        self.stats += "\ne) The degree distribution of inlinks and outlinks.\n"
+        self.stats += "\tDegree of distribution saved to: degreeDistInlinks.txt, degreeDistOutlinks.txt\n"
         
         print self.stats
+        
 
     
     def addSumofPRsToStats(self, iteration):
