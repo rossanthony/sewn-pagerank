@@ -107,7 +107,7 @@ class PageRank(object):
 
     def initPageRanks(self):
         # initialise PR values to 1
-        self.stats = "Teleportation factor: %d\n" % self.teleportationFactor
+        self.stats = "Teleportation factor: %.2f\n" % self.teleportationFactor
         self.stats += "Convergence threashold: +/-%.4f\n" % self.convergence
         self.pageRanks = {}
         for page in self.visitedPages:
@@ -151,7 +151,7 @@ class PageRank(object):
 
         self.stats += "Reached convergence of non-dangling pages in %d iterations\n" % iteration
 
-        self.stats += "Now dealing with dangling links...\n"
+        self.stats += "Now calculating PR's for the dangling pages...\n"
         convergedCount = 0
 
         while convergedCount < len(self.visitedPages):
@@ -181,7 +181,7 @@ class PageRank(object):
                 if self.pageRanks[page][iteration] >= self.pageRanks[page][iteration-1] - self.convergence:
                     convergedCount+=1
 
-        self.stats += "Reached convergence in %d iterations\n" % iteration
+        self.stats += "Reached full convergence in %d iterations\n" % iteration
         self.stats += "Done!\n...\n"
 
         filename = "pagerank%.2f_workings" % self.teleportationFactor

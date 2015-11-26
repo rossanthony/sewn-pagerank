@@ -1,8 +1,8 @@
-Teleportation factor: 0
+Teleportation factor: 0.15
 Convergence threashold: +/-0.0001
 Reached convergence of non-dangling pages in 50 iterations
-Now dealing with dangling links...
-Reached convergence in 52 iterations
+Now calculating PR's for the dangling pages...
+Reached full convergence in 52 iterations
 Done!
 ...
 PR iteration trace saved to: `pagerank015_workings.txt`
