@@ -15,26 +15,20 @@ class PageRank(object):
         self.visitedPages = []
         self.linksOnPages = {}
         self.crawledPages  = {} # holds Crawled Pages (read in from file)
+        # Constants 
         self.totalOutlinks = 0
-        
-        self.teleportationFactor = 1.0
+        self.teleportationFactor = 0.15
         self.convergence = 0.0001 
         self.dp = 4 # decimal places to round PR's to
 
-        self.stats  = "Teleportation factor: %d\n" % self.teleportationFactor
-        self.stats += "Convergence threashold: +/-%.4f\n" % self.convergence
-        
         self.readInCrawlTxt()
-        
-        # self.saveOutput()
-        # self.saveLinks()
         self.buildMatrix()
         self.saveMatrixAsCsv()
         self.calcTotals()
         self.initPageRanks()
         self.calcPageRanks()
         self.outputStats()
-
+        self.saveOutput()
 
     #
     # Returns: Void
@@ -112,21 +106,14 @@ class PageRank(object):
 
 
     def initPageRanks(self):
-        # initialise
+        # initialise PR values to 1
+        self.stats = "Teleportation factor: %d\n" % self.teleportationFactor
+        self.stats += "Convergence threashold: +/-%.4f\n" % self.convergence
         self.pageRanks = {}
         for page in self.visitedPages:
-            self.pageRanks[page] = []
-            # print "dangling page rank: %f" % (1.0 / len(self.visitedPages))
-            self.pageRanks[page].append(1) 
-
-        totalPagerank = 0.0
-        for page in self.visitedPages:
-            totalPagerank = totalPagerank + self.pageRanks[page][0]
-        print "Iteration: 0, sum of all pageranks: %f" % totalPagerank
-        # print json.dumps(self.pageRanks, sort_keys=True, indent=4)
-
-
-
+            self.pageRanks[page] = [1]
+            
+        
     def calcPageRanks(self):
         iteration = 0
         convergedCount = 0
@@ -162,9 +149,9 @@ class PageRank(object):
                 # else:
                 #     print "Iteration = %d, page %s not converged" % (iteration, page)
 
-        print "Reached convergence of non-dangling pages in %d iterations" % iteration
+        self.stats += "Reached convergence of non-dangling pages in %d iterations\n" % iteration
 
-        print "Now dealing with dangling links..."
+        self.stats += "Now dealing with dangling links...\n"
         convergedCount = 0
 
         while convergedCount < len(self.visitedPages):
@@ -194,8 +181,8 @@ class PageRank(object):
                 if self.pageRanks[page][iteration] >= self.pageRanks[page][iteration-1] - self.convergence:
                     convergedCount+=1
 
-        print "Reached convergence in %d iterations" % iteration
-        print "DONE!\n..."
+        self.stats += "Reached convergence in %d iterations\n" % iteration
+        self.stats += "Done!\n...\n"
 
         filename = "pagerank%.2f_workings" % self.teleportationFactor
         filename = filename.replace('.','') + ".txt"
@@ -312,11 +299,11 @@ class PageRank(object):
 
 
     def saveOutput(self):
-        output = ''
-        for visitedUrl in self.visitedPages:
-            output += "\"%s\": " % visitedUrl
-            output += json.dumps(self.linksOnPages[visitedUrl], sort_keys=True, indent=4)
-            output += ",\n"
+        output = self.stats
+        # for visitedUrl in self.visitedPages:
+        #     output += "\"%s\": " % visitedUrl
+        #     output += json.dumps(self.linksOnPages[visitedUrl], sort_keys=True, indent=4)
+        #     output += ",\n"
         output += "\n"
         crawlerFile = open("output.txt", "w")
         crawlerFile.write(str(output))
