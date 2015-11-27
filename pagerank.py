@@ -1,12 +1,8 @@
-
-from collections import OrderedDict
-import math
-import urllib
-import numpy as np
-import urlparse              # lib for parsing urls
+import math         # used for sqrt method
+import numpy as np  # used for matrix data type
+import json         # used to output data in json format for legibility
+import urllib       # used to normalise URLs, with the unquote method (i.e. convert %7e to ~)
 from urlparse import urljoin # allows conversion of relative urls into absolute ones 
-import json
-
 
 class PageRank(object):
 
@@ -17,9 +13,10 @@ class PageRank(object):
         self.crawledPages  = {} # holds Crawled Pages (read in from file)
         # Constants 
         self.totalOutlinks = 0
-        self.teleportationFactor = 0.15
+        self.teleportationFactor = 0.00
         self.convergence = 0.0001 
         self.dp = 4 # decimal places to round PR's to
+        self.maxIterations = 100
 
         self.readInCrawlTxt()
         self.buildMatrix()
@@ -29,6 +26,7 @@ class PageRank(object):
         self.calcPageRanks()
         self.outputStats()
         self.saveOutput()
+        # print json.dumps(self.linksOnPages, sort_keys=True, indent=4)
 
     #
     # Returns: Void
@@ -77,7 +75,7 @@ class PageRank(object):
                 if not line:
                     break
                 if line[:8] == 'Visited:':
-                    visited = urllib.unquote(line[9:].strip().rstrip('/'))
+                    visited = urllib.unquote(line[9:].strip().rstrip('/')).lower()
                     if self.isUniqueUrl(visited):
                         self.visitedPages.append(visited)
                         self.linksOnPages[visited] = []
@@ -105,6 +103,10 @@ class PageRank(object):
         self.matrix = np.matrix(allPages)
 
 
+    # Initialise the pageRanks, set them all to 1.
+    #
+    # Returns: Bool
+    #
     def initPageRanks(self):
         # initialise PR values to 1
         self.stats = "Teleportation factor: %.2f\n" % self.teleportationFactor
@@ -113,12 +115,16 @@ class PageRank(object):
         for page in self.visitedPages:
             self.pageRanks[page] = [1]
             
-        
+    
+    # Main method handling the PageRank calculations
+    #
+    # Returns: Bool
+    #  
     def calcPageRanks(self):
         iteration = 0
         convergedCount = 0
 
-        while convergedCount < len(self.visitedPages):
+        while convergedCount < len(self.visitedPages) and iteration < self.maxIterations:
             iteration+=1
             totalPagerank = 0.0
 
@@ -126,62 +132,31 @@ class PageRank(object):
                 inlinks = self.inlinks[page]
                 outlinks = self.linksOnPages[page]
 
-                if len(outlinks) > 0:
-                    pageRanksOfInlinks = []
-                    for link in inlinks:
-                        pageRanksOfInlinks.append( self.pageRanks[link][iteration-1] / self.outlinkCounts[link] )
+                pageRanksOfInlinks = []
+                for link in inlinks:
+                    pageRanksOfInlinks.append( self.pageRanks[link][iteration-1] / self.outlinkCounts[link] )
 
-                    # random surfer version of PR algorithm
-                    rank = self.teleportationFactor / self.nonDanglingPages + (1 - self.teleportationFactor) * sum(pageRanksOfInlinks)
-                else:
-                    # print "page %s has no outlinks" % page
-                    # print "using previous rank: %f" % self.pageRanks[page][iteration-1]
-                    rank = self.pageRanks[page][iteration-1]
+                # add inlinks for dangling pages to all pageranks
+                for pageUrl, linksOnPage in self.linksOnPages.items():
+                    if len(linksOnPage) == 0:
+                        pageRanksOfInlinks.append( self.pageRanks[pageUrl][iteration-1] / len(self.visitedPages))
 
+                # random surfer version of PR algorithm
+                rank = self.teleportationFactor / len(self.visitedPages) + (1 - self.teleportationFactor) * sum(pageRanksOfInlinks)
+                
                 self.pageRanks[page].append(round(rank, self.dp))    
                 totalPagerank = totalPagerank + rank
             
             # check for convergence
             convergedCount = 0
             for page in self.visitedPages:
-                if self.pageRanks[page][iteration] >= self.pageRanks[page][iteration-1] - self.convergence:
+                if round(self.pageRanks[page][iteration-1],1) == 0.0 or self.pageRanks[page][iteration] >= self.pageRanks[page][iteration-1] - self.convergence:
                     convergedCount+=1
-                # else:
-                #     print "Iteration = %d, page %s not converged" % (iteration, page)
-
-        self.stats += "Reached convergence of non-dangling pages in %d iterations\n" % iteration
-
-        self.stats += "Now calculating PR's for the dangling pages...\n"
-        convergedCount = 0
-
-        while convergedCount < len(self.visitedPages):
-            iteration+=1
-            totalPagerank = 0.0
-
-            for page in self.visitedPages:
-                inlinks = self.inlinks[page]
-                outlinks = self.linksOnPages[page]
-
-                if len(outlinks) == 0:
-                    pageRanksOfInlinks = []
-                    for link in inlinks:
-                        pageRanksOfInlinks.append( self.pageRanks[link][iteration-1] / self.outlinkCounts[link] )
-
-                    # random surfer version of PR algorithm
-                    rank = self.teleportationFactor / len(self.visitedPages) + (1 - self.teleportationFactor) * sum(pageRanksOfInlinks)
                 else:
-                    rank = self.pageRanks[page][iteration-1]
-
-                self.pageRanks[page].append(round(rank, self.dp))    
-                totalPagerank = totalPagerank + rank
-            
-            # check for convergence
-            convergedCount = 0
-            for page in self.visitedPages:
-                if self.pageRanks[page][iteration] >= self.pageRanks[page][iteration-1] - self.convergence:
-                    convergedCount+=1
+                    print "Iteration = %d, page %s not yet converged" % (iteration, page)
 
         self.stats += "Reached full convergence in %d iterations\n" % iteration
+        self.addSumofPRsToStats(iteration)
         self.stats += "Done!\n...\n"
 
         filename = "pagerank%.2f_workings" % self.teleportationFactor
@@ -210,28 +185,62 @@ class PageRank(object):
 
 
     def outputStats(self):
+        self.stats += "\nTotal (unique) visited pages: %d (of which %d are dangling)" % (len(self.visitedPages), len(self.visitedPages) - self.nonDanglingPages)
+        self.stats += "\nTotal number of inlinks: %d | outlinks: %d\n" % (self.totalInlinks, self.totalOutlinks)
+        
         # a) The number of inlinks to each page.
+        self.stats += "\na) The number of inlinks to each page.\n\tSaved to: inlinksPerPage.txt\n"
         crawlerFile = open('inlinksPerPage.txt', "w")
         inlinksPerPage = "# inlinks per page\n"
+        degreeDistInlinks = []
         for key, value in sorted(self.inlinkCounts.iteritems(), key=lambda (k,v): (v,k), reverse=True):
             inlinksPerPage += "%d\t%s\n" % (value, key)
+            degreeDistInlinks.append(value)
         crawlerFile.write(inlinksPerPage)
         crawlerFile.close()
     
         # b) The number of outlinks from each page.
+        self.stats += "\nb) The number of outlinks to each page.\n\tSaved to: outlinksPerPage.txt\n"
         crawlerFile = open('outlinksPerPage.txt', "w")
         outlinksPerPage = "# outlinks per page\n"
+        degreeDistOutlinks = []
         for key, value in sorted(self.outlinkCounts.iteritems(), key=lambda (k,v): (v,k), reverse=True):
             outlinksPerPage += "%d\t%s\n" % (value, key)
+            degreeDistOutlinks.append(value)
+
         crawlerFile.write(outlinksPerPage)
         crawlerFile.close()
 
+        degreeDistInlinksDict = {}
+        for numLinks in degreeDistInlinks:
+            degreeDistInlinksDict[numLinks] = 0
+        for numLinks in degreeDistInlinks:
+            degreeDistInlinksDict[numLinks] = degreeDistInlinksDict[numLinks] + 1
+        degreeDistInlinksOutput = "# inlinks\t# pages\n"
+        for key, value in sorted(degreeDistInlinksDict.iteritems(), key=lambda t: t[0], reverse=True):
+            degreeDistInlinksOutput += "%s\t\t\t%s\n" % (key, value)
+        degreeDistInlinksFile = open('degreeDistInlinks.txt', "w")
+        degreeDistInlinksFile.write(degreeDistInlinksOutput)
+        degreeDistInlinksFile.close()
+
+        degreeDistOutlinksDict = {}
+        for numLinks in degreeDistOutlinks:
+            degreeDistOutlinksDict[numLinks] = 0
+        for numLinks in degreeDistOutlinks:
+            degreeDistOutlinksDict[numLinks] = degreeDistOutlinksDict[numLinks] + 1
+        degreeDistOutlinksOutput = "# outlinks\t# pages\n"
+        for key, value in sorted(degreeDistOutlinksDict.iteritems(), key=lambda t: t[0], reverse=True):
+            degreeDistOutlinksOutput += "%s\t\t\t%s\n" % (key, value)
+
+        degreeDistOutlinksFile = open('degreeDistOutlinks.txt', "w")
+        degreeDistOutlinksFile.write(degreeDistOutlinksOutput)
+        degreeDistOutlinksFile.close()
+
         # c) The average (mean) number of inlinks to a page, variance and the standard deviation.
+        self.stats += "\nc,d) The average (mean) number of in/outlinks to/from a page, variance and the standard deviation.\n"
         # d) The average (mean) number of outlinks from a page, variance and the standard deviation.
-        self.stats += "Total (unique) visited pages: %d (of which %d are dangling)\n" % (len(self.visitedPages), len(self.visitedPages) - self.nonDanglingPages)
-        self.stats += "Total number of inlinks: %d | outlinks: %d\n" % (self.totalInlinks, self.totalOutlinks)
-        self.stats += "Mean number of inlinks: %d | outlinks: %d\n" % (int(self.totalInlinks) / int(len(self.visitedPages)), int(self.totalOutlinks) / int(len(self.visitedPages)))
-        self.stats += "Mean number of inlinks: %d | outlinks: %d\n" % (int(self.totalInlinks) / int(len(self.visitedPages)), int(self.totalOutlinks) / int(len(self.visitedPages)))
+        self.stats += "\tMean number of inlinks: %d | outlinks: %d\n" % (int(self.totalInlinks) / int(len(self.visitedPages)), int(self.totalOutlinks) / int(len(self.visitedPages)))
+        self.stats += "\tMean number of inlinks: %d | outlinks: %d\n" % (int(self.totalInlinks) / int(len(self.visitedPages)), int(self.totalOutlinks) / int(len(self.visitedPages)))
         
         # To calculate the variance follow these steps: 
         # Work out the Mean (the simple average of the numbers) 
@@ -247,14 +256,23 @@ class PageRank(object):
             outlinkVariance.append((count - (int(self.totalOutlinks) / int(len(self.visitedPages)))) * (count - (int(self.totalOutlinks) / int(len(self.visitedPages)))))
         outlinkVariance = sum(outlinkVariance) / float(len(outlinkVariance))
 
-        self.stats += "Variance of inlinks: %d | outlinks: %d\n" % (inlinkVariance, outlinkVariance)
-        self.stats += "Standard deviation of inlinks: %d | outlinks: %d\n" % (math.sqrt(inlinkVariance), math.sqrt(outlinkVariance))
+        self.stats += "\tVariance of inlinks: %d | outlinks: %d\n" % (inlinkVariance, outlinkVariance)
+        self.stats += "\tStandard deviation of inlinks: %d | outlinks: %d\n" % (math.sqrt(inlinkVariance), math.sqrt(outlinkVariance))
 
         # e) The degree distribution of inlinks and outlinks, i.e. tables such as the following:
-        self.stats += "Degree of distribution saved to: inlinksPerPage.txt, outlinksPerPage.txt\n"
+        self.stats += "\ne) The degree distribution of inlinks and outlinks.\n"
+        self.stats += "\tDegree distribution has been saved to: degreeDistInlinks.txt, degreeDistOutlinks.txt\n"
         
         print self.stats
         
+
+    
+    def addSumofPRsToStats(self, iteration):
+        totalPagerank = 0.0
+        for page in self.visitedPages:
+            totalPagerank = totalPagerank + self.pageRanks[page][iteration]
+        self.stats += "Sum of all pageranks: %.4f\n" % totalPagerank
+
 
     # Save the link matrix as a csv
     # 
@@ -299,14 +317,10 @@ class PageRank(object):
 
 
     def saveOutput(self):
-        output = self.stats
-        # for visitedUrl in self.visitedPages:
-        #     output += "\"%s\": " % visitedUrl
-        #     output += json.dumps(self.linksOnPages[visitedUrl], sort_keys=True, indent=4)
-        #     output += ",\n"
-        output += "\n"
-        crawlerFile = open("statistics.txt", "w")
-        crawlerFile.write(str(output))
+        filename = "statistics%.2f" % self.teleportationFactor
+        filename = filename.replace('.','') + ".txt"
+        crawlerFile = open(filename, "w")
+        crawlerFile.write(str(self.stats))
         crawlerFile.close()
         return True
 
